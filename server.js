@@ -5,6 +5,7 @@ require("dotenv").config();
 
 const productRoutes = require("./routes/productRoutes");
 
+
 const app = express();
 
 app.use(cors());
